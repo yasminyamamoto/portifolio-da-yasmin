@@ -3,21 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <title>Portifólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"  integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
 </head>
 <body>
     <header class="container text-center">
-        <p>eu sou a Yasmin</p>
-        <h1>eu sou estudante </h1>
-        <p>estou fazendo o 2°ano do ensino médio, pretendo fazer curso de TI</p>
-        <P>Progamo nas Linguagens</P>
+        <img src="yasmin ghibli.png" alt="Foto da yasmin" class="rounded-circle" width="200" height="200">
+        <p class="lead">Eu sou a yasmin</p>
+        <h1>Eu sou estudante</h1>
+        <p>Sou faço curso de unhas</p>
+        <p>estudante</p>
         <div>
-            <p>HTML</p>
-            <p>JavaScript</p>
-            <p>Scratch</p>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Python</p>
+            <p class="badge bg-secondary">Scratch</p>
         </div>
+
     </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
-</body>
-</html>
+    <main class="container">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="projetoscrtatch.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Projeto Scratch</h5>
+                      <p class="card-text">Adicionar depois.</p>
+                      <button type="button" class="btn btn-link" data-bs-toggle='modal' data-bs-target="#modal1"> Saiba Mais... </button>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </main>
+    
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Pong com Scratch</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Acesse o(s) link(s) para mais informações.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="https://scratch.mit.edu/projects/889459521/">ver projeto ao vivo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+    </body>
+    </html>
